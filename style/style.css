@@ -13,11 +13,10 @@ h1 {
 
 h2 {
   font-family: 'Kanit', sans-serif;
-  font-weight: 500;
-  font-size: 1.4em;
+  font-weight: 700;
+  font-size: 1.5em;
   line-height: 1.9em;
-  color: #416875;
-
+  color: #555555;
 }
 
 body {
@@ -58,26 +57,25 @@ border-radius: 50%;
 }
 
 .button-53 {
-  background-color: #b6d6db;
-  border: 0 solid #E5E7EB;
+  background-color: #313131;
+  border: 2 solid #E5E7EB;
   box-sizing: border-box;
-  color: #2c2c2c;
+  color: #ececec;
   display: flex;
   font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 0.4rem;
+  font-size: 0.9rem;
   font-weight: 700;
   justify-content: center;
-  line-height: 1.75rem;
+  line-height: 1.95rem;
   padding: .6rem 1.65rem;
   position: relative;
   text-align: center;
-  text-decoration: none #000000 solid;
+  text-decoration: none rgb(226, 226, 226) solid;
   text-decoration-thickness: auto;
   width: 100%;
   max-width: 460px;
   position: relative;
   cursor: pointer;
-  transform: rotate(-2deg);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -93,16 +91,17 @@ border-radius: 50%;
 .button-53:after {
   content: '';
   position: absolute;
-  border: 1px solid #000000;
-  bottom: 4px;
-  left: 4px;
+  border: 3px solid #313131;
+  bottom: 0px;
+  left: 0px;
   width: calc(100% - 1px);
   height: calc(100% - 1px);
 }
 
 .button-53:hover:after {
-  bottom: 2px;
-  left: 2px;
+  bottom: 5px;
+  left: 5px;
+  
 }
 
 *{
@@ -124,7 +123,7 @@ ul li a {
 }
 ul li a .fa-brands {
   font-size: 6em;
-  color: #222;
+  color: #3a3a3a;
 }
 ul li a::before {
   font-family: "FontAwesome";
@@ -183,3 +182,4 @@ ul li:hover a::before {
     font-size: 1rem;
   }
 }
+
