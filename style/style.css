@@ -169,14 +169,14 @@ ul li:hover a::before {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 420px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
-    width: 500px;
+    width: 480px;
+	  height: 100vh;
   }
-
-}
-@media (min-width: 408px) {
+  
+@media (min-width: 308px) {
   .button-53 {
     padding: .75rem 3rem;
     font-size: 1rem;
