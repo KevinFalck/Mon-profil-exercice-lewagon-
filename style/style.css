@@ -1,0 +1,183 @@
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 1.9em;
+  color: #5cacc7;
+  line-height: 1.9em;
+  display: none
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 1.9em;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(17, 17, 17)
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid rgb(245, 245, 245);
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+.social-links li {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 0 10em rgba(193, 236, 255, 0.425);
+  margin: 2em;
+}
+
+.button-53 {
+  background-color: #9cedfa;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #2c2c2c;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 0.4rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .6rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  position: relative;
+}
+ul li {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a .fa-brands {
+  font-size: 6em;
+  color: #222;
+}
+ul li a::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 50;
+  left: 0;
+  font-size: 6em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+ul li:nth-child(1) a::before {
+  content: "\f16d";
+  background-image: linear-gradient(45deg,
+    #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
+    #bc1888 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid #dc2743;
+}
+
+ul li:nth-child(2) a::before {
+  content: "\f232";
+  color: #25D366;
+  border-bottom: 2px solid #25D366;
+}
+
+ul li:nth-child(3) a::before {
+  content: "\f099";
+  color: #156da3;
+  border-bottom: 2px solid #1DA1F2;
+}
+
+ul li:hover a::before {
+  height: 500%;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+
+}
+@media (min-width: 408px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1rem;
+  }
+}
