@@ -16,6 +16,8 @@ h2 {
   font-weight: 500;
   font-size: 1.4em;
   line-height: 1.9em;
+  color: #416875;
+
 }
 
 body {
@@ -56,7 +58,7 @@ border-radius: 50%;
 }
 
 .button-53 {
-  background-color: #9cedfa;
+  background-color: #b6d6db;
   border: 0 solid #E5E7EB;
   box-sizing: border-box;
   color: #2c2c2c;
